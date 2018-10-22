@@ -4,7 +4,7 @@ This workshop will introduce you to a few foundational tools that tend to get us
 
 In this session, we will:
 
-- Learn what UNIX command line is and what it's for
+- Learn what the UNIX command line is and what it's for
 - Learn about how our computer's file system is organized.
 - Learn how to orient ourselves in the command line
 - Learn how to navigate files and folders in the command line

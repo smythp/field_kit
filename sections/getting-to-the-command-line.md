@@ -12,7 +12,7 @@ If you're using Mac OS:
 4\. The terminal will look like this:  
 
 ![Terminal in Mac OS](osx_term.png)
-
+ix
 When you see the `$`, you're in the right place. We call the `$` the command prompt; the `$` lets us know the computer is ready to receive a command.
 
 *You can change the color of your Terminal or BashShell background and text by selecting `Shell` from the top menu bar, then selecting a theme from the menu under `New Window`.*
@@ -21,7 +21,7 @@ Bonus points: if you really want to get the groove of just typing instead of poi
 
 ## Windows
 
-We won't be using Windows's own non-UNIX version of the command line. We installed Git Bash, following [these instructions](https://github.com/DHRI-Curriculum/install/blob/master/sections/git.md), so that we can work in the cross-platform Unix command line for this session. 
+We won't be using Windows's own non-UNIX version of the command line. We will be installing Git Bash, following [these instructions](https://github.com/DHRI-Curriculum/install/blob/master/sections/git.md), so that we can work in the Unix command line for this session. 
 
 1\. Look for Git Bash in your programs menu and open.  
 2\. If you can't find the git folder, just type "git bash" in the search box and select "git bash" when it appears.   

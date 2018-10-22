@@ -2,13 +2,13 @@
 
 # Navigation
 
-### Getting started: know thyself
+## Command prompt `$`
 
-You may also see your username to the left of the command prompt `$`. Let's try our first command. Type the following and press enter:
+ `$`, which we will refer to as the "command prompt," is the place you type commands you wish the computer to execute. You may also see your username to the left of the command prompt `$`.
 
-```
-$ whoami
-```
+Let's try our first command. Type the following and press enter:
+
+	$ whoami
 
 The `whoami` command should print out your username. Congrats, you've executed your first command! This is a basic pattern of use in the command line: type a command and receive output.
 
@@ -32,9 +32,7 @@ The root or highest-level folder on OSX is just called `/`. We won't need to go 
 
 OK, let's try a command that tells us where we are in the filesystem:
 
-```
-$ pwd
-```
+	$ pwd
 
 You should get output like `/Users/patrick`. That means you're in the `patrick` directory in the `Users` folder inside the `/` or root directory. On Windows, your output would instead be `C:/Users/patrick`. The folder you're in is called the working directory, and `pwd` stands for "print working directory."
 
@@ -44,26 +42,21 @@ OK, we know where we are. But what if we want to know what files and folders are
 
 Try entering:
 
-```
-$ ls
-```
+	$ ls
+
 You should see a number of folders, probably including `Documents`, `Desktop`, and so on. You may also see some files. These are the contents of the current working directory. `ls` will "list" the contents of the directory you are in.
 
 Wonder what's in the Desktop folder? Let's try navigating to it with the following command:
 
-```
-$ cd Desktop
-```
+	$ cd Desktop
 
 The `cd` command lets us "change directory."  
 (Make sure the "D" in "Desktop" is capitalized. ) If the command was successful, you won't see any output. This is normal —- often, the command line will succeed silently. 
 
 So how do we know it worked? That's right, let's use our `pwd` command again. We should get:
 
-```
-$ pwd
-/Users/patrick/Desktop
-```
+	$ pwd
+	/Users/patrick/Desktop
 
 Now try `ls` again to see what's on your desktop. These three commands—`pwd`, `ls`, and `cd`—are the most commonly used in the terminal. Between them, you can orient yourself and move around. 
 
@@ -73,15 +66,11 @@ Before we move on, let's take a minute to navigate through our computer's file s
 
 Use the three commands you've just learned—`pwd`, `ls` and `cd`—eight (8) times each. Go poking around your Photos folder, or see what's so special about that root `/` directory. When you're done, come back to the home folder with 
 
-```
-cd ~
-```
+	cd ~
 
 (That's a tilde, on the top left of your keyboard.) One more command you might find useful is 
 
-```
-cd ..
-```
+	cd ..
 
 which will move you one directory up in the filesystem. That's a `cd` with two periods after it.
 
