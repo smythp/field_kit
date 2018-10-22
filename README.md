@@ -27,20 +27,12 @@ In this session, we will:
 [Creating files and folders](sections/creating-files-and-folders.md)  
 [Creating a cheat sheet](sections/creating_a_cheat_sheet.md)  
 [Setting Up Git](sections/setup.md)  
-
-
-### Resources
-
-[Commands cheat sheet](sections/commands.md)  
-[More on text editors](sections/text-editors-ides.md)  
-[Other useful commands](sections/other-commands.md)  
-[Further challenges](sections/challenges.md)  
-[Glossary](sections/glossary.md)  
+[Staging and Committing Changes](gitaction.md)  
 
 -----
 
-Session Leader: Jojo Karlin  
-Based on previous work by Patrick Smyth and Mary Catherine McKinniburgh
+Session Leader: Patrick Smyth  
+Based on previous work by Patrick Smyth, Jojo Karlin, Patrick Sweeney, and Mary Catherine McKinniburgh
 
 [![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/)
 
